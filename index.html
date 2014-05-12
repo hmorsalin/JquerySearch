@@ -1,0 +1,1199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Search</title>
+<script src="js/jquery.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
+
+
+<script src="js/jquery.quicksilver.js"></script>
+<script src="js/jquery.simpleFAQ.js"></script>
+
+
+
+
+<script language="javascript">
+
+	$(document).ready(function() {
+		$(".categoryaccordion").hide();
+		
+		$("#box0").show();		
+		
+		$("#box1 .searching" ).simpleFAQ({
+			  showOnlyOne: true,
+			  allowSearch: true,
+			  searchNode: '#Search1',
+			  minSearchScore: 0.5,
+			  sortSearch: false,
+			   changeHash: false, 
+			});
+		$("#box2 .searching" ).simpleFAQ({
+			  showOnlyOne: true,
+			  allowSearch: true,
+			  searchNode: '#Search2',
+			  minSearchScore: 0.5,
+			  sortSearch: false,
+			   changeHash: false, 
+			});
+		$("#box3 .searching" ).simpleFAQ({
+			  showOnlyOne: true,
+			  allowSearch: true,
+			  searchNode: '#Search3',
+			  minSearchScore: 0.5,
+			  sortSearch: false,
+			   changeHash: false, 
+			});
+		$("#box4 .searching" ).simpleFAQ({
+			  showOnlyOne: true,
+			  allowSearch: true,
+			  searchNode: '#Search4',
+			  minSearchScore: 0.5,
+			  sortSearch: false,
+			   changeHash: false, 
+			});
+		$("#box5 .searching" ).simpleFAQ({
+			  showOnlyOne: true,
+			  allowSearch: true,
+			  searchNode: '#Search5',
+			  minSearchScore: 0.5,
+			  sortSearch: false,
+			   changeHash: false, 
+			});
+		$("#box6 .searching" ).simpleFAQ({
+			  showOnlyOne: true,
+			  allowSearch: true,
+			  searchNode: '#Search6',
+			  minSearchScore: 0.5,
+			  sortSearch: false,
+			   changeHash: false, 
+			});
+		$("#box7 .searching" ).simpleFAQ({
+			  showOnlyOne: true,
+			  allowSearch: true,
+			  searchNode: '#Search7',
+			  minSearchScore: 0.5,
+			  sortSearch: false,
+			   changeHash: false, 
+			});
+		$("#box8 .searching" ).simpleFAQ({
+			  showOnlyOne: true,
+			  allowSearch: true,
+			  searchNode: '#Search8',
+			  minSearchScore: 0.5,
+			  sortSearch: false,
+			   changeHash: false, 
+			});
+		$("#box9 .searching" ).simpleFAQ({
+			  showOnlyOne: true,
+			  allowSearch: true,
+			  searchNode: '#Search9',
+			  minSearchScore: 0.5,
+			  sortSearch: false,
+			   changeHash: false, 
+			});
+		$("#box10 .searching" ).simpleFAQ({
+			  showOnlyOne: true,
+			  allowSearch: true,
+			  searchNode: '#Search10',
+			  minSearchScore: 0.5,
+			  sortSearch: false,
+			   changeHash: false, 
+			});
+		$("#box11 .searching" ).simpleFAQ({
+			  showOnlyOne: true,
+			  allowSearch: true,
+			  searchNode: '#Search11',
+			  minSearchScore: 0.5,
+			  sortSearch: false,
+			   changeHash: false, 
+			});
+		$("#box12 .searching" ).simpleFAQ({
+			  showOnlyOne: true,
+			  allowSearch: true,
+			  searchNode: '#Search12',
+			  minSearchScore: 0.5,
+			  sortSearch: false,
+			   changeHash: false, 
+			});
+		$("#box13 .searching" ).simpleFAQ({
+			  showOnlyOne: true,
+			  allowSearch: true,
+			  searchNode: '#Search13',
+			  minSearchScore: 0.5,
+			  sortSearch: false,
+			   changeHash: false, 
+			});
+		$("#box14 .searching" ).simpleFAQ({
+			  showOnlyOne: true,
+			  allowSearch: true,
+			  searchNode: '#Search14',
+			  minSearchScore: 0.5,
+			  sortSearch: false,
+			   changeHash: false, 
+			});
+			
+		$(".item").click(function(){
+			
+			$(".item").css("background","#CCC");
+			$(this).css("background","#578bc1");
+			$(this).css("color","#fff");
+			var openDivId = $(this).attr("rel");
+			$(".categoryaccordion").hide();
+			$("#"+openDivId).show();
+			//var y = $(window).scrollTop();  $("html, body").animate({ scrollTop: y + 		$(window).height() }, 200);
+			//var y = $(window).scrollTop();  //your current y position on the page
+//$(window).scrollTop(y+250, 'slow');
+			
+			$('html, body').stop().animate({ scrollTop: 500 }, 700, 'swing');
+			return false;
+			
+			
+		});
+	});
+
+</script>
+
+
+</head>
+
+<body>
+	<!--img src="img/tophead.png" style="max-width: 100%;" /-->
+	<div class="title"><h1>Help Center</h1></div>
+	<div class="wrapper">
+		<!--div class="title"><h1>Help Center</h1></div-->
+		<div style="overflow: hidden; width: 100%">
+			<a id="faqtop" href="#faqstart"><h2 style="float: left; width: 33%; padding: 10px 5px; text-align: center; margin-top: 0; background:#E8D185">
+				FAQs
+			</h2></a>
+			<h2 style="float: left; width: 32%; padding: 10px 5px; text-align: center; margin-top: 0; background:#C18A81">
+				Our Policies
+			</h2>
+			<h2 style="float: left; width: 32%; padding: 10px 5px; text-align: center; margin-top: 0; background:#AAFF9E">
+				Live Chat
+			</h2>	
+		</div>
+		<div>
+			<!--img style="width:100%" src="img/head.png" /-->
+		</div>
+		
+		<!--FAQ OPTIONS-->
+		<div class="contact-six">
+    	<a class="contact-six-block contact_product" target="_blank" href="/page/faqs#order">
+        	<img class="six_icon" src="http://www.finluxdirect.com/content/ebiz/shop/resources/images/support-hub/product_faqs_icon.png" alt="">
+            <h3>Product FAQs</h3>
+        </a>
+        <a class="contact-six-block contact_order" target="_blank" href="/page/faqs#order">
+        	<img class="six_icon" src="http://www.finluxdirect.com/content/ebiz/shop/resources/images/support-hub/order_faqs_icon.png" alt="">
+            <h3>Order FAQs</h3>
+        </a>
+        <a class="contact-six-block contact_delivery" target="_blank" href="/page/faqs#delivery">
+        	<img class="six_icon" src="http://www.finluxdirect.com/content/ebiz/shop/resources/images/support-hub/delivery_faqs_icon.png" alt="">
+            <h3>Delivery FAQs</h3>
+        </a>
+        <a class="contact-six-block contact_security" target="_blank" href="/page/faqs#security">
+        	<img class="six_icon" src="http://www.finluxdirect.com/content/ebiz/shop/resources/images/support-hub/security_faqs_icon.png" alt="">
+            <h3>Security FAQs</h3>
+        </a>
+        <a class="contact-six-block contact_refund" target="_blank" href="/faqs#refund">
+        	<img class="six_icon" src="http://www.finluxdirect.com/content/ebiz/shop/resources/images/support-hub/refund_faqs_icon.png" alt="">
+            <h3>Refund FAQs</h3>
+        </a>
+        <a class="contact-six-block contact_website" target="_blank" href="/page/faqs#website">
+        	<img class="six_icon" src="http://www.finluxdirect.com/content/ebiz/shop/resources/images/support-hub/website_faqs_icon.png" alt="">
+            <h3>Website FAQs</h3>
+        </a>
+    	</div>
+    	<END FAQ OPTIONS-->
+		<!--start--><div id="product">
+        <div class="category" id="faqstart">     
+        	<div class="item" rel="box11">3D TV's</div>
+        	<div class="item" rel="box2">Cancelling an order</div>
+        	<div class="item" rel="box12">Connecting to your TV</div>
+        	<div class="item" rel="box4">Delivery Information</div>
+        	<div class="item" rel="box5">Delivery Options</div>
+        	<div class="item" rel="box3">My Account</div>
+        	<div class="item" rel="box1">Placing an order</div> 
+        	<div class="item" rel="box9">Product Information</div> 
+        	<div class="item" rel="box13">Replacement Parts</div>  
+        	<div class="item" rel="box7">Returning an item</div>   
+            <div class="item" rel="box6">Tracking Your Order</div>
+            <div class="item" rel="box14">Troubleshooting</div> 
+            <div class="item" rel="box10">TV Specifications</div>
+            <div class="item" rel="box8">Warranty information</div>          
+        </div>   
+        <div style="clear:both;"></div>   
+        <div class="categoryaccordion" id="box0"><h1>Get started by choosing a category above...</h1></div>  
+      	<div class="categoryaccordion" id="box1">
+        	<div class="srarchBox"><input type='text'  class="Search"  id="Search1" placeholder="Enter a few keywords..." /> </div>   
+        	<h1>Placing an order</h1>
+            <ul class="searching">
+                                    <li>
+                      <p class='question'>I need some help in choosing a TV to purchase.</p>
+                      <div class='answer'>
+                        <p>We’ve created a guide to help you to choose the right TV – check out our TV buying guide, and if you need any further help please get in contact with us – we’re always happy to advise. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                       <p class="tags">TV, help choosing</p>
+                      </div>
+                    </li>           
+                    <li>
+                      <p class='question'>How do I place an order?</p>
+                      <div class='answer'>
+                        <p>It is quick and easy to place your order online. Simply find the product you would like to buy and click on the red Add to Basket icon. Once your basket holds everything you would like to order, simply click on “Check-out” and Log in/register to enter your delivery and payment details.</p>
+                        <p>If you are having technical difficulties placing your order, please contact us to let us know. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                         <p class="tags">Place an order</p>
+                      </div>
+                    </li>        
+                    <li>
+                      <p class='question'>I am unhappy about buying goods online - is there another way I can order?</p>
+                      <div class='answer'>
+                        <p>We are only able to accept orders placed via the Website.  Please rest assured that our Site is fully secure and safe for you to use.  For more information, visit the “Site Security” pages to understand how we protect your details. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                         <p class="tags">order, other ways to pay</p>
+                      </div>
+                    </li>
+                    <li>
+                      <p class='question'> Can I have my order sent to an alternate delivery address?</p>
+                      <div class='answer'>
+                        <p>When placing an order, you can add a different delivery address to your billing address. Please note that if the billing address and delivery address do not match then we may request further proof of identity for the protection of our customers online.  Also make sure you enter the billing address that corresponds with the payment card you are using.<br/>
+If you need to change your delivery address after placing your order, then please contact the Customer Service Team to discuss this, and we will see what we can do.  Please note that for security reasons we may ask you to place a new order, or request further identification.  If you have made a payment via PayPal, then we will not be able to make any amendments to your order. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                         <p class="tags">order, other ways to pay</p>
+                      </div>
+                    </li>     
+                    <li>
+                      <p class='question'>Are you able to offer me a better price on your TVs</p>
+                      <div class='answer'>
+                        <p>The TVs on our Website are already heavily discounted, and we are therefore not able to offer you a further reduced price.  However, if you are looking to make a bulk purchase of 5 or more TVs, then please send an email to customercare@finluxdirect.co.uk and we will see whether we can offer a better deal. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                         <p class="tags">cheaper price, wholesale, whole sale</p>
+                      </div>
+                    </li>     
+                    <li>
+                      <p class='question'>What payment options can I use?</p>
+                      <div class='answer'>
+                        <p>We accept the majority of major credit and debit cards, including: Visa, Visa Debit, Mastercard, Maestro & Solo.  We also now accept PayPal.  At present, we do not accept American Express.   We don’t currently offer an interest free credit option, or financial payment plans on purchases.   <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                         <p class="tags">payment, payment options, credit card, debit card</p>
+                      </div>
+                    </li>     
+                    <li>
+                      <p class='question'>I am unhappy about buying goods online - is there another way I can order?</p>
+                      <div class='answer'>
+                        <p>We are only able to accept orders placed via the Website.  Please rest assured that our Site is fully secure and safe for you to use.  For more information, visit the “Site Security” pages to understand how we protect your details. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                         <p class="tags">order, other ways to pay</p>
+                      </div>
+                    </li>     
+                    <li>
+                      <p class='question'>Can I order from an international location?</p>
+                      <div class='answer'>
+                        <p>You can place an order from outside the UK, but the order must be delivered to a UK address.   <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                         <p class="tags">international, abroad, overseas</p>
+                      </div>
+                    </li>     
+                    <li>
+                      <p class='question'>Do you deliver to businesses?</p>
+                      <div class='answer'>
+                        <p>We are able to deliver to a business address.  Please note that we may request further proof of identity.  This is to protect our online customers.  If we do request additional identification, please be advised that the dispatch of your order may be delayed. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                         <p class="tags">my workplace, office, business, businesses</p>
+                      </div>
+                    </li>     
+                    <li>
+                      <p class='question'>How will I know if you have successfully received my order?</p>
+                      <div class='answer'>
+                        <p>Once the order has been processed, we will send you a confirmation email.  This is usually within an hour of the order being submitted by you on our Website. Please note that the email may go into your Junk/Spam folder if you have not shopped with us online before.  Also, make sure that you register with a correct and valid email address, just to make sure you receive all of our communications. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                         <p class="tags">order, tracking</p>
+                      </div>
+                    </li>     
+                    <li>
+                      <p class='question'>What does my order status mean?</p>
+                      <div class='answer'>
+                        <p>The order status will tell you at what stage your order is at, once it has been submitted via our Website.
+<ul>
+<li>• In Progress - Your order has not been processed yet.</li>
+<li>• Order Processing – This means that your order has just been received by the warehouse and is in the process of being dispatched.</li>
+<li>• Approved and ready for delivery – Your order is being prepared for shipment and will be leaving our warehouse shortly.</li>
+<li>• Despatched - Your order has left our warehouse. You should have received a dispatch email with tracking information.</li>
+<li>• Back order – We are awaiting stock to be delivered to our warehouse.  Once we receive this, your order will be despatched to you, and you will receive notification via email.</li>
+<li>• Cancelled - Your order has been cancelled either by you or by us.</li>
+</ul>
+If you have any further queries in relation to the status of your order, please contact us. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                         <p class="tags">order, order status</p>
+                      </div>
+                    </li>     
+                    <li>
+                      <p class='question'>Can I find out when a product that is out of stock comes back in?</p>
+                      <div class='answer'>
+                        <p>If an item is out of stock, then it will have a “Pre-order” button, rather than an “Add to Basket” button.  Currently, we are not able to be specific on our website as to when each individual stock line will return to the Range. If you send us an email with your stock availability request, then we will give you an estimate as to when we can expect further stock. Please note that this will only be an estimate and subject to change. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                         <p class="tags">stock, out of stock, pre-order</p>
+                      </div>
+                    </li>    
+                    <li>
+                      <p class='question'>What does the Pre-order button on your Website mean?</p>
+                      <div class='answer'>
+                        <p>If an item is listed as “Pre-order” on the Website, then we are currently awaiting further stock.  If you pre-order an item, then it will ship out to you as soon as we receive further stock into our warehouse.  Currently, we are not able to be specific on our Website as to when each individual stock line will return to the Range. If you send us an email with your stock availability request, then we will give you an estimate as to when we can expect further stock. Please note that this will only be an estimate and subject to change. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                         <p class="tags">pre-order, status</p>
+                      </div>
+                    </li>    
+            </ul>      
+        </div>
+         	<div class="categoryaccordion" id="box2">
+        	<div class="srarchBox"><input type='text'  class="Search"  id="Search2" placeholder="Enter a few keywords..." /> </div>   
+        	<h1>Cancelling an order</h1>
+            <ul class="searching">
+                <li>
+                  <p class='question'>How do I cancel an order?</p>
+                  <div class='answer'>
+                    <p>If you need to change details of your delivery address, remove items from your order or cancel it completely, please contact our Customer Service Team for advice on 08712 204 114 between 9am and 6pm weekdays. Please be ready to quote your order number and order date.  Note that we do prepare orders for shipment fairly soon after you place them online, so we may not always be able to make any amendments to the order once it has been submitted. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">Cancel an order, cancel</p>
+                  </div>
+                </li>  
+                 <li>
+                  <p class='question'>Can I cancel an order online?</p>
+                  <div class='answer'>
+                    <p>Once your order has been submitted via the Website, it is not possible to cancel it online. However, in some circumstances, we may be able to cancel your order for you, if you call us as soon as the order has been placed. Please call our Customer Service Team on 08712 204 114 between 9am and 6pm weekdays.</p>
+                    <p>If you have received email confirmation that your order has already been despatched or delivered, then you will need to follow our returns procedure. If your order has been dispatched but not yet delivered by the courier company, then we may be able to stop it in transit, so please get in contact with us as soon as possible and we will see what we can do.  <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p> </p>
+                   <p class="tags">Cancel, cancel order</p>
+                  </div>
+                </li>           
+                <li>
+                  <p class='question'>I have cancelled my order prior to dispatch.  When will you release the funds back to me?</p>
+                  <div class='answer'>
+                    <p>We aim to release the funds that are currently reserved in your account back to your available balance within 3-5 working days of the order being cancelled.  A notification will be sent to the email address registered on your Finlux Account once our Finance team have processed the request.<br/><br/>
+
+Please note that we do not take full payment, or receive funds, until the item has been dispatched to the customer.  When an order is placed, a pre-authorisation takes place for the full amount of the order, and these funds will be reserved within your account until such time as an order is dispatched, and the funds are released to us.  Alternatively, if an order is cancelled prior to dispatch, then the pre-authorisation request will be cancelled by our Finance department, and the card issuer will then release the funds back to your account. <br/><br/>
+Your card issuer will be able to advise you how this pre-authorisation and cancellation would be shown in your account.  Note that any transactions may show as coming from “Finlux” or “Vestel”, which is our parent company. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">cancel my order, refund, cancel</p>
+                  </div>  
+            </ul>      
+        </div>
+         	<div class="categoryaccordion" id="box3">
+            <div class="srarchBox"><input type='text'  class="Search"  id="Search3" placeholder="Enter a few keywords..." /> </div>      
+        	<h1>My Account</h1>
+            <ul class="searching">
+                <li>
+                  <p class='question'>Can I update my account details including name, address, email and phone number?</p>
+                  <div class='answer'>
+                    <p>If you would like to update any Account details, please log into your Account via the Log in/Register link at the top of the screen. Once logged in, you will be able to check and/or edit your details.  You will also be able to edit your preferences i.e. how Finlux communicates with you.</p>
+                    <p>Please note that once an order has been placed, you can only make amendments to the delivery address by contacting us. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">account, change</p>
+                  </div>
+                </li>  
+                 <li>
+                  <p class='question'>How do I opt out of receiving marketing emails from you?</p>
+                  <div class='answer'>
+                    <p>If you wish to opt out of marketing communications from us, log into your account, and select ‘edit communication options’. Then un-tick the communication formats that you no longer wish to receive. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">unsubscribe, emails, marketing</p>
+                  </div>
+                </li>           
+            </ul>      
+        </div>
+         	<div class="categoryaccordion" id="box4">
+            <div class="srarchBox"><input type='text'  class="Search"  id="Search4" placeholder="Enter a few keywords..." /> </div>     
+        	<h1>Delivery Information</h1>
+            <ul class="searching">
+                <li>
+                  <p class='question'>Where do you deliver to?</p>
+                  <div class='answer'>
+                    <p>We deliver to mainland UK, and Northern Ireland (additional delivery charge applies).  Unfortunately we do not currently deliver internationally or to the Channel Islands. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">Deliver, overseas, abroad, Channel Islands</p>
+                  </div>
+                </li>  
+                 <li>
+                  <p class='question'>Do you deliver to Northern Ireland?</p>
+                  <div class='answer'>
+                    <p>We do deliver to Northern Ireland, at an additional cost of £10.  Please note the following estimated delivery times:<br/>
+Screen size under 46 “ Delivery estimate 1-3 working days from dispatch<br/>
+Screen size 46” and above Delivery estimate 7 working days from dispatch  <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">Northern Ireland, delivery times</p>
+                  </div>
+                </li>           
+                <li>
+                  <p class='question'>Are there any areas where you don’t offer a next day delivery service?</p>
+                  <div class='answer'>
+                    <p>The following postcode regions are excluded from the next day delivery service:<br/>
+AB31-56, IV, KA27-28, KW, PA20-78, PH4-50, PO30-41, BT, ZE. Extended delivery times may be necessary for these areas. Please contact our Customer Service Team, if you require further information. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">AB31-56, IV, KA27-28, KW, PA20-78, PH4-50, PO30-41, BT, ZE</p>
+                  </div>
+                </li>        
+                <li>
+                  <p class='question'>Do you deliver to an overseas address:</p>
+                  <div class='answer'>
+                    <p>We do not currently ship to destinations outside of the UK <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">overseas, international</p>
+                  </div>
+                </li>    
+            </ul>      
+        </div>
+         	<div class="categoryaccordion" id="box5">
+            <div class="srarchBox"><input type='text'  class="Search"  id="Search5" placeholder="Enter a few keywords..." /> </div>     
+        	<h1>Delivery Options</h1>
+            <ul class="searching">
+                <li>
+                  <p class='question'>How much does delivery cost?</p>
+                  <div class='answer'>
+                    <p>Delivery to UK mainland is free, with an additional charge applicable for deliveries to Northern Ireland. Please note that we do not deliver to the Channel Islands. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">Northern Ireland, delivery charge, price</p>
+                  </div>
+                </li>  
+                 <li>
+                  <p class='question'>Do you deliver on Bank holidays?</p>
+                  <div class='answer'>
+                    <p>Our delivery service is suspended on Bank holidays.  If your order was placed before noon on the last working day preceding the Bank holiday, it will be delivered on the next working day after the Bank holiday. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">Bank holiday</p>
+                  </div>
+                </li>           
+                <li>
+                  <p class='question'>Can I choose a delivery day?</p>
+                  <div class='answer'>
+                    <p>We will deliver the next working day, if you have ordered before noon on a working day. However, if you email us immediately after having placed your order, we may be able to deliver your product on an alternative date that you select. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">next day, delivery, working day</p>
+                  </div>
+                </li>        
+                <li>
+                  <p class='question'>Will you dispose of my old TV equipment?</p>
+                  <div class='answer'>
+                    <p>We don’t currently offer a disposal service for your old TV equipment.  Please contact your local authority, who will advise you where to safely recycle and dispose of your old equipment.  For more information on Recycling and WEEE (Waste Electrical and Electronic Equipment) legislation and obligations click here. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">disposal, recycle</p>
+                  </div>
+                </li>    
+            </ul>      
+        </div>
+         	<div class="categoryaccordion" id="box6">
+            <div class="srarchBox"><input type='text'  class="Search"  id="Search6" placeholder="Enter a few keywords..." /> </div>     
+        	<h1>Tracking Your Order</h1>
+            <ul class="searching">
+                <li>
+                  <p class='question'>When will my order be delivered?</p>
+                  <div class='answer'>
+                    <p>If you place your order before 12pm, we will aim to deliver to you on the next working day (Monday to Friday). This is dependent on your order being transmitted to us, the TV being in stock, and your order authorised passing our additional screening process.<br/><br/>
+Note that orders placed after 12pm on a Friday through to 12pm on Monday will be delivered on the following Tuesday (excludes bank holidays).<br/><br/>
+The following postcodes are excluded from next working day delivery: AB31-56, BT, IV, KA27-28, KW, PA20-78, PH4-50, PO30-41, ZE as longer transit times may apply. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">when will my order, delivery time</p>
+                  </div>
+                </li>  
+                 <li>
+                  <p class='question'>Will you call me before you attempt a delivery?</p>
+                  <div class='answer'>
+                    <p> The evening before your delivery is scheduled, we will email you to confirm that the expected delivery is going ahead. Although we cannot be specific in terms of the time-slot of your delivery, you can track the progress of your order online with the consignment number. You can find this tracking number in the dispatch confirmation email that we send out the day before your delivery is due. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">delivery, track</p>
+                  </div>
+                </li>           
+                <li>
+                  <p class='question'>How do I track my order?</p>
+                  <div class='answer'>
+                    <p>We will send you a dispatch email on the evening before your TV will be delivered. The email will also contain the tracking code for your parcel. We use different couriers depending on the size of TV. The courier will be confirmed in your dispatch email. 
+<ul>
+<li>• APC Overnight Delivery (7 digit code) click here</li>
+<li>• UPS Delivery (18 digit code) click here</li>
+<li>• Panther Logistics – you will be sent a text and email the evening before delivery, advising you of the estimated delivery slot</li>
+</ul>
+Note that you may not be able to track your parcel until the day of delivery, dependent on when the couriers publish the details on their web sites. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">tracking, track my order</p>
+                  </div>
+                </li>        
+                <li>
+                  <p class='question'>My order has not arrived.  What should I do?</p>
+                  <div class='answer'>
+                    <p>If your order has not arrived, first of all please view the consignment status of your delivery on the relevant courier website.  Note you can always contact the courier directly to check on the progress of your delivery.  When a delivery attempt is made, the courier delivers a calling card, which outlines how you can reschedule another delivery.
+<br/>If the status of the item says “out for delivery” then the delivery is still scheduled for later in the day. Deliveries are made until 6pm.<br/> If you have any further queries in relation to the delivery of your order, please contact us and we will liaise with the courier. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">Order has not arrived, where is my order</p>
+                  </div>
+                </li>   
+                <li>
+                  <p class='question'>Will the delivery driver unpack and install my TV?</p>
+                  <div class='answer'>
+                    <p>Our courier companies are not authorised to unpack and install your product for you.  However, we are sure you will find the TV easy to set up and install.  If you have any issues, please contact us and and we will be happy to help you. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">delivery driver</p>
+                  </div>
+                </li> 
+                <li>
+                  <p class='question'>My delivery has arrived damaged – what are my options?</p>
+                  <div class='answer'>
+                    <p>It is very rare for any damage to occur during transit.  However, if it does, then as detailed on your delivery note, please contact us within 24 hours of delivery and we will be on hand to resolve for you.  Please note that we will ask you to send in photos of the damage to the product and packaging. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p> </p>
+                     <p class="tags">damage, damaged</p>
+                  </div>
+                </li>  
+                <li>
+                  <p class='question'>My delivery has arrived but there was an item missing – what should I do?</p>
+                  <div class='answer'>
+                    <p>We are very sorry if an item was missing from your delivery.  Please call us on 0845 459 5282 with your order number ready and we will be happy to resolve the issue for you. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">missing, not there</p>
+                  </div>
+                </li>                
+            </ul>      
+        </div>
+         	<div class="categoryaccordion" id="box7">
+            <div class="srarchBox"><input type='text'  class="Search"  id="Search7" placeholder="Enter a few keywords..." /> </div>    
+        	<h1>Returning An Item</h1>
+            <ul class="searching">
+                <li>
+                  <p class='question'>What is your returns policy?</p>
+                  <div class='answer'>
+                    <p>We operate a 14 day no-quibble cancellation and returns policy for goods bought on FinluxDirect.com. If you wish to return any products for whatever reason, please contact us within 14 days of delivery to obtain a Return Merchandise Authorisation number (RMA) and instructions for return. Please note that for an item to be accepted for return and refund, it must be in its original condition, with all packaging, manuals and accessories intact. We reserve the right to refuse returns or to charge you for our reasonable cost if the product is not received in accordance with these requirements.<br/>
+After the 14 day period, we will not be able to accept a return, unless the television develops a fault.
+ <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">Return, returns, returns policy</p>
+                  </div>
+                </li>  
+                 <li>
+                  <p class='question'>How long do I have to return an item?</p>
+                  <div class='answer'>
+                    <p>Under the Distance Selling Regulations, if you buy online or by phone, your consumer rights entitle you to a full refund, if you request one in writing within 7 working days of receipt. We go above and beyond this statutory requirement and give you up to 14 days to return an item. This includes any delivery charge.
+Please contact us within 14 days of delivery to obtain a Return Merchandise Authorisation number (RMA) and instructions for return. Please note that for an item to be accepted for return and refund, it must be in its original condition, with all packaging, manuals and accessories intact. We reserve the right to refuse returns or to charge you for our reasonable cost, if the product is not received in accordance with these requirements.<br/>
+After this 14 day period we are unable to accept returns unless the item has developed a fault.
+ <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">Return, returns, returns policy</p>
+                  </div>
+                </li>           
+                <li>
+                  <p class='question'>How do I return an item?</p>
+                  <div class='answer'>
+                    <p>If you would like to arrange a return, please contact us, and include:<br/>
+<ul>
+<li>Your original order number</li>
+<li>Reason for return</li>
+</ul></br/>
+
+We will respond confirming your RMA number and provide the details of when we will come and collect your product.
+Under the Distance Selling Regulations, if you buy online or by phone, your consumer rights entitle you to a full refund if you request one in writing within 7 working days of receipt. We go above and beyond this statutory requirement and allow you up to 14 days to ask for a refund. This includes any delivery charge.
+Please contact us within 14 days of delivery to obtain a Return Merchandise Authorisation number (RMA) and instructions for return. Please note that for an item to be accepted for return and refund, it must be in its original condition, with all packaging, manuals and accessories intact. We reserve the right to refuse returns or to charge you for our reasonable cost, if the product is not received in accordance with these requirements.
+After this 14 day period we are unable to accept returns unless the item has developed a fault.
+ <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">Returns, returning, return</p>
+                  </div>
+                </li>        
+                <li>
+                  <p class='question'>Can I refuse a delivery rather than contact you to arrange a return?</p>
+                  <div class='answer'>
+                    <p>If you decide to cancel your order following dispatch, and prior to delivery, contact us with your order number ready and we will be happy to discuss your options.  This will enable us to liaise with the courier on your behalf, before a delivery attempt is made. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">refuse, refuse delivery, cancel order</p>
+                  </div>
+                </li>
+                <li>
+                  <p class='question'>How long will it take to get my refund?</p>
+                  <div class='answer'>
+                    <p>Provided the products are returned in 'as new' condition, we will endeavour to provide you with a full refund of the purchase price and any delivery charges you initially incurred in getting the products to you (standard delivery charges), no later than 14 days from and including the day on which we received the returned item(s) and notified you that the return has been approved. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">refund, when will i get my money back</p>
+                  </div>
+                </li>   
+                <li>
+                  <p class='question'>How will I know a refund has been processed to my account?</p>
+                  <div class='answer'>
+                    <p>Once a refund is made to your original payment account, we will send you out an email to advise you of this.  Please note that whilst Finlux will have processed your refund, your card issuer / bank may take a few days to credit this to your account. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">refund</p>
+                  </div>
+                </li>    
+                <li>
+                  <p class='question'>If I return a product, will I get a refund for the special delivery charge I paid?</p>
+                  <div class='answer'>
+                    <p>If you return your full order, your delivery charge will be refunded as well as your product costs. We will credit your debit or credit card within a maximum of 30 days (usually within 10 days) of receiving your returned products. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">refund, delivery charge</p>
+                  </div>
+                </li>          
+            </ul>      
+        </div>
+         	<div class="categoryaccordion" id="box8">
+            <div class="srarchBox"><input type='text'  class="Search"  id="Search8" placeholder="Enter a few keywords..." /> </div>     
+        	<h1>Warranty information</h1>
+            <ul class="searching">
+                <li>
+                  <p class='question'>What product warranty is the TV supplied with?</p>
+                  <div class='answer'>
+                    <p>The product warranty is for a period of twelve (12) months from the date of original purchase. Any defect caused by faulty materials or workmanship will be repaired free of charge where possible during this period by Finlux. If a repair is not possible, the product will be replaced free of charge or a refund will be given. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">Warranty</p>
+                  </div>
+                </li>  
+                 <li>
+                  <p class='question'>What does the 12 month product warranty cover?</p>
+                  <div class='answer'>
+                    <p>The product warranty is for a period of twelve (12) months from the date of original purchase. During this period and where possible, Finlux will repair, free of charge, any defect caused by faulty materials or workmanship. If a repair is not possible, the product will be replaced free of charge or a refund will be given.  <br/>
+This guarantee is subject to the following provisions:<br/>
+	•	The guarantee does not cover accidental damage, misuse, cabinet parts, knobs or consumable items<br/>
+	•	The product must be correctly installed and operated in accordance with the instructions in the manual provided<br/>
+	•	The product must be used solely for domestic purposes in the UK only.<br/>
+	•	The guarantee will be invalid if the product is re-sold or has been damaged by inexpert repair.<br/>
+And below are the terms of the warranty:<br/>
+<strong>Disclaimer</strong><br/>
+The manufacturer disclaims any liability for incidental or consequential damages. This guarantee is in addition to, and does not diminish, your statutory or legal rights.<br/>
+<strong>Warranty Exclusions</strong><br/>
+	•	This Warranty does not extend to loss, liquid ingression, theft, vermin or insect infestation.<br/>
+	•	This warranty does not cover damage caused by:<br/>
+	•	Misuse or abusive use of any Finlux consumer product<br/>
+	•	Incorrect operation, or not following the operating instructions (as stated in the Product Instruction Manual)<br/>
+	•	Improper installation<br/>
+	•	Failure to clean or improper cleaning of the product<br/>
+	•	Incorrect voltage or non-authorised electrical connections<br/>
+	•	Use of non-authorised/non-standard parts<br/>
+	•	Password setting/resetting and virus infection<br/>
+	•	Repair or other work carried out on the Finlux consumer product other than by authorised Finlux service personnel.<br/>
+
+	•	This Warranty does not cover service costs for the replacement and maintenance of consumable parts, which have stopped working through normal wear and tear.  This includes, but is not limited to, parts classifiable as consumer parts.<br/>
+	•	This Warranty does not cover any Finlux branded consumer product installed in a moveable dwelling.  Note that the performance of the product may be affected if it is installed in a caravan or other such moveable dwelling.<br/>
+	•	This warranty does not cover Finlux consumer products, which do not bear the original manufacturer’s factory-applied serial number in its original form (for instance where it or the sticker bearing has been removed, wiped out, rubbed off, or altered).  This applies even if you make a claim while the product is still under warranty.<br/>
+This Warranty does not cover the loss of any data no matter how the loss is caused. You are responsible for backing up and protecting data against loss, damage or destruction.  The guarantee is only valid when accompanied by proof of purchase.  If the serial number is defaced, missing or illegible, the warranty is null and void.<br/>
+In the event of a problem with the product within the guarantee period, please contact our Customer Service Team.  Please ensure you have the model number, reference number and your order number to hand. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">warranty cover, warranty</p>
+                  </div>
+                </li>           
+                <li>
+                  <p class='question'>What will happen if my TV needs a repair whilst under warranty?</p>
+                  <div class='answer'>
+                    <p>If your TV develops a fault during the 1 year product warranty, we will arrange to collect your TV for inspection. Note for larger screens, our authorised service partners will always try to complete any repairs at your home. However, there may be times when the product has to be taken away for further testing. If this happens, you will not be charged for collection or return of the product within the terms of this guarantee.<br/><br/>
+In the event of a problem with the product within the guarantee period, please contact our Customer Service Team.  Please ensure you have the model number, reference number and your order number to hand.
+ <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">repair</p>
+                  </div>
+                </li>        
+                <li>
+                  <p class='question'>Can I purchase an extended warranty?</p>
+                  <div class='answer'>
+                    <p>We have the following extended warranties available to buy when you purchase a TV:<br/><br/>
+	•	2 year warranty – this upgrades your warranty from the current 12 months product warranty to 2 years from the date of purchase.<br/>
+	•	3 year warranty – this upgrades your warranty from the current 12 months product warranty to 3 years from the date of purchase.<br/>
+	•	5 year warranty – this upgrades your warranty from the current 12 months product warranty to 5 years from the date of purchase.<br/><br/>
+Please ensure that you purchase the correct extended warranty for your product, as we have differing price points dependent on the size / type of TV you have purchased.  To ensure you select the right level of cover, we would advise that you go to the detailed product page for the TV you have purchased, and select the warranty from the ‘Related Products’ tab towards the bottom of the page.<br/>
+For more information, visit the ‘warranty information’ page.
+ <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">extend, extend warranty</p>
+                  </div>
+                </li>  
+                <li>
+                  <p class='question'>Does my product warranty cover commercial use?</p>
+                  <div class='answer'>
+                    <p>Under the terms of the warranty, the product must be solely used for domestic purposes only, and therefore does not cover commercial use. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">commercial</p>
+                  </div>
+                </li> 
+                <li>
+                  <p class='question'>Is my warranty transferable?</p>
+                  <div class='answer'>
+                    <p>The warranty cannot be transferred to a 3rd party.  If the TV does need a repair, then we would only be able to deal with the purchaser of the product. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">transfer, transfer warranty, transferrable</p>
+                  </div>
+                </li> 
+                <li>
+                  <p class='question'>Will you supply a temporary TV whilst mine is being repaired?</p>
+                  <div class='answer'>
+                    <p>We do occasionally have loan TVs available, whilst your model is being repaired.  Please note however, that this may well be a lower specification TV to the one you have purchased.  Please contact our Customer Service Team on 0845 459 5282, who will be able to advise you of availability.
+ <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">loan, temporary TV</p>
+                  </div>
+                </li> 
+                <li>
+                  <p class='question'>Can I buy an extended warranty after purchase?</p>
+                  <div class='answer'>
+                    <p>ou can buy an extended warranty at any point during your current warranty period.  For example, you can upgrade to the 2 year warranty at any point during the first 12 months from purchase. However, if your existing warranty has expired, you cannot purchase any additional warranty.<br/><br/>
+Please ensure that you purchase the correct extended warranty for your product, as we have differing price points, which depend on the size and type of TV purchased.  To ensure you select the right level of cover, we would advise that you go to the detailed product page for the TV you have purchased, and select the warranty from the Related Products tab towards the bottom of the page. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">extend warranty</p>
+                  </div>
+                </li> 
+                <li>
+                  <p class='question'>Can I buy an extended warranty when my current warranty expires?</p>
+                  <div class='answer'>
+                    <p>If your existing warranty has expired, you cannot purchase any additional warranty.  Note that you can buy an extended warranty at any point during your current warranty period.  <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">extend warranty, extend,  warranty</p>
+                  </div>
+                </li>   
+            </ul>      
+        </div>
+         	<div class="categoryaccordion" id="box9">
+            <div class="srarchBox"><input type='text'  class="Search"  id="Search9" placeholder="Enter a few keywords..." /> </div>      
+        	<h1>Product information</h1>
+            <ul class="searching">
+                <li>
+                  <p class='question'>How do I get an instruction manual?</p>
+                  <div class='answer'>
+                    <p>We have a library of Finlux TV & Audio Product instruction manuals, ready for you to download and print off if you need one. Visit the ‘Manuals’ page to locate the manual for your product.<br/><br/>  
+If you can't find your instruction manual in the list then please contact us and we'll try to help find the manual if possible. Please note that we only have access to UK models of TVs and won't be able to help with TVs bought in other countries.  <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">instructions, manual, instruction manual</p>
+                  </div>
+                </li>  
+                 <li>
+                  <p class='question'>What is a Smart TV?</p>
+                  <div class='answer'>
+                    <p>Smart or Connected TVs are models that offer additional internet functionality, enabling viewers to surf the internet as well as access a whole range of online apps. With this built-in internet service, viewers can enjoy movies on demand and catch-up tv via apps, such as BBC iPlayer. They can also log onto social networking sites and select and play a selection of online games.  <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">smart, smart tv</p>
+                  </div>
+                </li>           
+                <li>
+                  <p class='question'>What do you need for a Smart TV to work?</p>
+                  <div class='answer'>
+                    <p>ou will need a good broadband connection. 
+The faster the speed of the connection, the better, especially for web browsing, streaming videos and watching catch up TV. For standard definition videos 2MB is recommended, while for high definition videos 4MB is recommended.  The average speed offered by internet service providers (ISPs) is 12Mbps.<br/><br/>
+Home Network Connectivity: Some files can be shared across your home network and viewed on your Smart TV.  You can connect multiple devices (including laptops and tablets) provided they are all on the same network.  
+ <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">smart, smart tv</p>
+                  </div>
+                </li>        
+                <li>
+                  <p class='question'>What SMART apps are available on Finlux TV’s?</p>
+                  <div class='answer'>
+                    <p>There are a number of SMART Apps available, so check out details of the current active Apps.  Our newer range of TVs include Skype, open internet browser, Netflix, BBC iPlayer and many more.  Some of the Apps may be under development; therefore certain functions may be limited but updates will follow. If any new Apps become available, we will make these available on the Portal.  Please note that ability to access new apps will depend on the build and model of your TV.  <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">smart, smart tv</p>
+                  </div>
+                </li>  
+                <li>
+                  <p class='question'>Is it possible to view Netflix or LoveFilms directly on your smart TV's?</p>
+                  <div class='answer'>
+                    <p>Netflix is now available on most of our Smart TVs.  Please check the detailed product page of the model you are interested in for further information.  At present, LoveFilm is not available on any of our TVs. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">netflix, lovefilm</p>
+                  </div>
+                </li>  
+                <li>
+                  <p class='question'>Can I load the SkyGo App onto your Smart TV's?</p>
+                  <div class='answer'>
+                    <p>It is not possible for you to add Apps to the portal yourself.  New Apps are under development and we are working to add these to the portal. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">skygo, sky, sky go</p>
+                  </div>
+                </li>  
+                <li>
+                  <p class='question'>What does Wi-Fi Ready mean?</p>
+                  <div class='answer'>
+                    <p>All of our Smart TVs are supplied with a Wi-Fi dongle, which enables you to connect from your TV to your Wi-Fi router.  <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">Wifi, wi-fi, wi fi</p>
+                  </div>
+                </li>  
+                <li>
+                  <p class='question'>What is DLNA and how do I get it to work?</p>
+                  <div class='answer'>
+                    <p>Digital Living Network Alliance (DLNA) enables the sharing of digital media such as music, photos and videos between consumer devices such as computers, TVs, printers, cameras, cell phones, and other multimedia devices.<br/><br/>
+Try the following using Windows Media Player on your PC as an example:<br/><br/>
+	•	Start – Windows Media Centre, (if not) go to Network and Sharing Centre<br/> 
+	•	Select ‘Change Advanced Sharing settings’<br/>
+	•	Select ‘Public’ – Media Streaming – Choose ‘Media streaming options’<br/>
+Select ‘Media programs on this PC and remote connections’ – ensure this is set to ‘Allowed’
+ <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">dlna</p>
+                  </div>
+                </li>    
+            </ul>      
+        </div>
+         	<div class="categoryaccordion" id="box10">
+            <div class="srarchBox"><input type='text'  class="Search"  id="Search10" placeholder="Enter a few keywords..." /> </div>      
+        	<h1>TV Specifications</h1>
+            <ul class="searching">
+                <li>
+                  <p class='question'>What DVD regions do your DVD combis play?</p>
+                  <div class='answer'>
+                    <p>Our DVD Combi TVs are multi-region, and will therefore play DVDs from all regions. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">dvd region, dvd, region</p>
+                  </div>
+                </li>  
+                 <li>
+                  <p class='question'>Can I receive Freeview HD on my HD Ready TV?</p>
+                  <div class='answer'>
+                    <p>Whether or not you can receive Freeview HD will depend on the model of HD Ready TV that you buy. HD Ready TVs require built-in Freeview HD to display Freeview channels in high definition. Finlux offers a choice of HD Ready TVs, producing models that are equipped with regular Freeview channels as well as models that come with built-in Freeview HD transmissions. For more information on Freeview HD, please visit: www.freeview.co.uk/HD. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">freeview, freeview hd</p>
+                  </div>
+                </li>   
+                <li>
+                  <p class='question'>What is the difference between the Full HD 1080p and the HD Ready 720p?</p>
+                  <div class='answer'>
+                    <p>HD Ready TVs will only display HD broadcasts whereas Full HD TVs will do this, plus provide even greater picture quality when connected to a Full HD source, such as a Blu-ray player.<br/><br/>If your TV is HD Ready then it offers you a screen resolution of at least 1366 x 720p. Currently in the UK, TV programmes are only able to broadcast up to the HD 720p level so if you have an HD Ready TV, then you will experience TV programmes at their finest level of detail. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">HD, 1080p, 720p</p>
+                  </div>
+                </li>          
+                <li>
+                  <p class='question'>What is digital switchover?</p>
+                  <div class='answer'>
+                    <p>Throughout 2007-2012, most terrestrial TVs in the UK became digital. The digital switchover was made to improve the energy efficiency of tvs as well as to enhance the picture quality and reception for viewers. Finlux TVs are all digital, but they can function as analogue models. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">digital switchover</p>
+                  </div>
+                </li>        
+                <li>
+                  <p class='question'>Are your TVs supplied with an analogue tuner?</p>
+                  <div class='answer'>
+                    <p>All of our models are supplied with an in-built Freeview and analogue tuner. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">freeview, tuner</p>
+                  </div>
+                </li>   
+                <li>
+                  <p class='question'>Do your TVs have a slot to put a card in i.e. top-up TV card or ESPN?</p>
+                  <div class='answer'>
+                    <p>Yes, there is a Common Interface slot for a CAM and does support ESPN. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">tv card, espn</p>
+                  </div>
+                </li>   
+                <li>
+                  <p class='question'>Does my TV play video and audio formats?</p>
+                  <div class='answer'>
+                    <p>All Finlux TVs play Video and Music files. However please check the instruction book for the full specification.  Note that the file formats listed in the manuals are for guidance only – the format specification of files change regularly, but it is not possible to upgrade the firmware on our TVs to accept changes in formats. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">audio, mp3, mp4, wma</p>
+                  </div>
+                </li>   
+                <li>
+                  <p class='question'>Is my TV wall mountable?</p>
+                  <div class='answer'>
+                    <p>All our TVs are VESA wall mount compatible, with the exception of our 19” combi models. Each TV will have a different screw type which will depend on the size of the screen. Please check the instruction book for the full specification. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">wall mount, wall, mount</p>
+                  </div>
+                </li>   
+                <li>
+                  <p class='question'>Do your TVs have an on/off switch?</p>
+                  <div class='answer'>
+                    <p>Our TVs have a Standby button, but do not have an on/off switch.  You will need to unplug the TV or turn off at the plug socket to help save energy. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">on, off, on/off, switch</p>
+                  </div>
+                </li>   
+                <li>
+                  <p class='question'>Do your TVs feature a wake-up timer?</p>
+                  <div class='answer'>
+                    <p>FInlux TVs do not currently feature a wake-up timer facility.  <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p> </p>
+                     <p class="tags">wake, wake-up, timer</p>
+                  </div>
+                </li>   
+                <li>
+                  <p class='question'>Are HDMI cables included with TVs?</p>
+                  <div class='answer'>
+                    <p>Our TVs do not come with an HDMI cable but they can be purchased from our Website. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">hdmi</p>
+                  </div>
+                </li>   
+                <li>
+                  <p class='question'>Are your TVs suitable for use in the Republic of Ireland? <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                  <div class='answer'>
+                    <p>Our TVs are not suitable for use in the Republic of Ireland, as they are not compatible with SAORVIEW (free Irish digital television service) and our warranty is not valid outside of the UK. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">ireland, SAORVIEW</p>
+                  </div>
+                </li>   
+                <li>
+                  <p class='question'>Are your TVs a good choice for countries with higher temperatures?</p>
+                  <div class='answer'>
+                    <p>Our TVs are not designed to work at high temperatures, and we would therefore not recommend them for use in countries with higher temperatures.  In addition, our warranty is not valid outside of the UK. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p>
+</p>
+                     <p class="tags">hot</p>
+                  </div>
+                </li>   
+                <li>
+                  <p class='question'>Do your TVs connect to 12v power supplies so I can use them in my motor-home?</p>
+                  <div class='answer'>
+                    <p>We have one range available on our Website that supports use via a car DC input suitable for use in caravans, motor-homes and outside TVs.  These models are indicated by ‘DM’ at the end of the product code.  The product detail will also indicate that it is a 12V model.  They come readily supplied with the relevant adaptor cable. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">motor home, outside</p>
+                  </div>
+                </li>     
+            </ul>      
+        </div>
+         	<div class="categoryaccordion" id="box11">
+            <div class="srarchBox"><input type='text'  class="Search"  id="Search11" placeholder="Enter a few keywords..." /> </div>     
+        	<h1>3D TVs</h1>
+            <ul class="searching">
+                <li>
+                  <p class='question'>What is a 3D TV?</p>
+                  <div class='answer'>
+                    <p>A 3D TV adds depth and edge to on-screen images, helping to make them look more life-like. To watch 3D TVS, you need a pair of 3D glasses as well as access to 3D films and programmes. A minimum of 4 pairs of glasses are included with your Finlux TV.  <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">3D</p>
+                  </div>
+                </li>  
+                 <li>
+                  <p class='question'>Can I watch normal 2D TV on a 3D model?</p>
+                  <div class='answer'>
+                    <p>3D TVs enable you to watch regular 2D channels and films, and for these, you will not require 3D glasses. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">3d</p>
+                  </div>
+                </li>           
+                <li>
+                  <p class='question'>What do I need to watch 3D content?</p>
+                  <div class='answer'>
+                    <p>As well as a 3D TV and 3D glasses, you will need access to 3D footage. Sky offers a 3D channel, whilst Virgin Media and BT Vision provide 3D films on demand. You can also watch 3D films via Blu-ray players. If your TV is not linked to a satellite channel or Blu-ray player, it will work as a regular 2D model. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">3d glasses</p>
+                  </div>
+                </li>        
+                <li>
+                  <p class='question'>What is passive 3D?</p>
+                  <div class='answer'>
+                    <p>The most popular and cost-effective type of 3D model available is the Passive 3D TV. The glasses that are designed to view Passive 3D are battery-free, inexpensive and much lighter and comfortable to wear than those for Active 3D TVs. They are key to the 3D viewing experience, helping to create the third dimensional effect on-screen by showing each eye a slightly different image. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">passive 3d, 3d</p>
+                  </div>
+                </li>    
+            </ul>      
+        </div>
+         	<div class="categoryaccordion" id="box12">
+            <div class="srarchBox"><input type='text'  class="Search"  id="Search12" placeholder="Enter a few keywords..." /> </div>     
+        	<h1>Connecting to your TV</h1>
+            <ul class="searching">
+                <li>
+                  <p class='question'>How do I connect to a PC or Mac, via HDMI or VGA and set the resolution?</p>
+                  <div class='answer'>
+                    <p>All our TVs support VGA input via PC or Mac. HDMI input is also supported on our TVs. Computers use a wide variety of graphics cards so there can be quite a variety of compatibility issues. To help with any compatibility issues, you can download a utility called PowerStrip which provides multi-monitor, programmable hardware support to a wide range of graphics cards.
+ <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">PC, Mac, HDMI, VGA, computer</p>
+                  </div>
+                </li>  
+                 <li>
+                  <p class='question'>How do I connect a 3D Blu-ray player or PS3 to my 3D TV?</p>
+                  <div class='answer'>
+                    <p>You need to connect the Blu-ray player (3D compatible) with a high speed HDMI cable (V1.4) to your TV.  Note that 3D glasses are only required when watching 3D content.<br/><br/>
+By default the PS3 will output a standard signal via the HDMI connection, therefore you may need to follow the below instructions to activate 3D on the PS3:<br/>
+	•	Have both the TV and console turned off.<br/>
+	•	Turn on the TV and wait for it to power up, then turn on the console (hold the power button until it beeps).<br/>
+	•	The PS3 will then identify the 3D TV and ask for resolution information and screen size.<br/><br/>
+Once selected, the PS3 will then have the ability to play both games and Blu-ray 3D discs.
+ <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">blu-ray</p>
+                  </div>
+                </li>           
+                <li>
+                  <p class='question'>What external audio connection does the TV have to connect to my Surround Sound system? <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                  <div class='answer'>
+                    <p>With Finlux TVs, audio output is either via Coax or optical output that would connect to the Audio Amplifier. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">audio, sound</p>
+                  </div>
+                </li>        
+                <li>
+                  <p class='question'>Can I connect my laptop to your TVs?</p>
+                  <div class='answer'>
+                    <p>All Finlux TVs have a Video Graphics Array (VGA), so that they can be connected to a laptop.  <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">Laptop</p>
+                  </div>
+                </li> 
+                <li>
+                  <p class='question'>I have Surround Sound speakers - Is there a connection for external audio? <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                  <div class='answer'>
+                    <p>With Finlux TVs, audio output is either via Coax or optical output that would connect to the Audio Amplifier. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">surround sound, speakers</p>
+                  </div>
+                </li> 
+                <li>
+                  <p class='question'>Can I connect my laptop to your TVs via HDMI?</p>
+                  <div class='answer'>
+                    <p>This depends on the computer and what it is outputting. The laptop needs to have a High-bandwidth Digital Contact Protection (HDCP) compliant graphic card if you are playing copyrighted films. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">hdmi, laptop</p>
+                  </div>
+                </li> 
+                <li>
+                  <p class='question'>Do your TVs have a headphone port?</p>
+                  <div class='answer'>
+                    <p>All our TVs have a 3.5mm headphone jack socket. Once plugged into the TV, the headphones will play be the only way in which to hear the TV.  <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">headphones</p>
+                  </div>
+                </li> 
+                <li>
+                  <p class='question'>How can I connect an external sound system to my TV?</p>
+                  <div class='answer'>
+                    <p>If you have the red and white RCA inputs available, you need an RF to RCA cable. You can then connect the cable from the TV’s Coax out socket to the sound bar etc. If you have a scart input available, you can connect that to either SCART1 or SCART2. The sound will only output from the Freeview.  Note that we also now sell a great soundbar from OrbitSound – this is the SB60LX. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p>
+</p>
+                     <p class="tags">sound system</p>
+                  </div>
+                </li> 
+                <li>
+                  <p class='question'>Can I connect my Finlux TV to my Sky Remote? <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p> </p>
+                  <div class='answer'>
+                    <p>You can connect your Finlux TV to your Sky Remote – just follow these easy steps below:<br/><br/>
+	•	Make sure your Sky box is connected to your TV<br/>
+	•	Turn your TV and Sky box on<br/>
+	•	Press TV on your Sky remote control handset<br/>
+	•	Hold down ‘Select’ and the ‘Red’ button together for about two seconds, until the red light on the Sky remote blinks twice<br/>
+	•	Key in 0065 on your Sky remote.  The light on the Sky remote should blink twice<br/>
+	•	Press the “Standby” button on your Sky remote control.  Your TV should now switch off<br/>
+	•	Press ‘Select’ again.  The light on your Sky remote control should now blink twice<br/><br/>
+You should now be able to control some basic functions on your TV from your Sky remote control (e.g. volume up/down, programme up/down). <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">sky, sky remote, remote</p>
+                  </div>
+                </li> 
+                <li>
+                  <p class='question'>How do I tune in my TV’s analogue channel to the Sky Box?</p>
+                  <div class='answer'>
+                    <p>To tune your TV’s analogue channel to your Sky Box, just follow these easy steps below:<br/><br/>
+	•	Connect your TV to the aerial feed from the RF output of the Sky box. <br/>
+	•	With the Sky box powered on, select the Menu on your Finlux remote. <br/>
+	•	Select Installation from the on screen Menu and then select Analogue Tuning. <br/>
+	•	When the TV has completed the search, select channel 901 or 9001 on your TV to select the Sky output. <br/><br/>
+You may need to fine tune the TV if required.
+ <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">sky</p>
+                  </div>
+                </li> 
+                <li>
+                  <p class='question'> I need to replace a TV I have which is fed from the coaxial output on my Sky HD box. Are your TVs suitable?</p>
+                  <div class='answer'>
+                    <p>Finlux TVs will tune into the Sky RF signal. You may need to do a manual scan to locate the signal. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">coaxial, sky</p>
+                  </div>
+                </li>    
+            </ul>      
+        </div>
+         	<div class="categoryaccordion" id="box13">
+            <div class="srarchBox"><input type='text'  class="Search"  id="Search13" placeholder="Enter a few keywords..." /> </div>   
+        	<h1>Replacement Parts</h1>
+            <ul class="searching">
+                <li>
+                  <p class='question'>How can I order the 4 pin to car DC input (cigarette lighter socket) connect our TV to caravans? </p>
+                  <div class='answer'>
+                    <p>We have one range available on our Website that supports use via a car DC input suitable for use in caravans, motor-homes and outside TVs.  These models are indicated by “DM” at the end of the product code.  The product detail will also indicate that it is a 12V model.  They come readily supplied with the relevant adaptor cable. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">car, order</p>
+                  </div>
+                </li>  
+                 <li>
+                  <p class='question'>Where can I get a replacement remote control, mains or power lead ,cable, aerial, connector, power supply, stand or spare parts for my TV, VCR, DVD, audio or hi fi system?</p>
+                  <div class='answer'>
+                    <p>For all spare parts requests, please get in contact with us directly, and we will be able to advise you on availability. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">remote control</p>
+                  </div>
+                </li>            
+            </ul>      
+        </div>
+        <div class="categoryaccordion" id="box14">
+        <div class="srarchBox"><input type='text'  class="Search"  id="Search14" placeholder="Enter a few keywords..." /> </div>   
+        	<h1>Troubleshooting</h1>
+            <ul class="searching">
+                <li>
+                  <p class='question'>My product arrived without an instruction manual, so how can I get a copy?</p>
+                  <div class='answer'>
+                    <p>We have a library of Finlux TV & Audio Product instruction manuals, ready for you to download and print if needed. Visit the ‘Manuals’ page to locate the manual for your product.<br/><br/>If you can't find your instruction manual in the list, then please contact us and we will try to help find the manual if possible. Please note that we only have access to UK models of TVs and may not be able to help with TVs bought in other countries.
+ <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">instructions, manual, instructions manual</p>
+                  </div>
+                </li>  
+                 <li>
+                  <p class='question'>Why does my TV not get a 3D picture?</p>
+                  <div class='answer'>
+                    <p>You need to have a 3D compatible device ( ie. 3D Blu Ray Player, 3D Console, Sky 3D) connected to your TV in order to receive 3D images. It also needs to be connected by a 1.4 version HDMI cable, running the latest software. Only 3D Media, such as 3D movies or 3D games can produce 3D images. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                   <p class="tags">3d</p>
+                  </div>
+                </li>           
+                <li>
+                  <p class='question'>My TV has a picture, but no sound?</p>
+                  <div class='answer'>
+                    <p>You need to carry out first time installation. Press ‘Menu’ on your remote control, then select ‘Install and Retune’, click ‘OK’, then ‘First Time Installation’, click ‘OK’.  After that, highlight ‘Yes’, then click ‘OK’.  From this point onwards, the on-screen instructions will help you to complete the process. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">Sound</p>
+                  </div>
+                </li>        
+                <li>
+                  <p class='question'>I cannot play media from the USB device on my TV?</p>
+                  <div class='answer'>
+                    <p>Check to ensure that your USB device is fully connected and your TV recognises the USB device. If you can access the USB device on the TV, try playing either an *.MP3 or a *.JPG file. If your TV plays these files then your TV is fine. It may be that your media type is not compatible with the TV. You can check the list of compatible media types at the rear of their instruction manual. Please note that the sound and picture must be encoded in a compatible format. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">usb, media</p>
+                  </div>
+                </li>   
+                <li>
+                  <p class='question'>I cannot receive HD channels on my TV?</p>
+                  <div class='answer'>
+                    <p>You will need to have an HD tuner to receive HD channels on your TV.  Check with your tuner provider for further information. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">HD</p>
+                  </div>
+                </li>        
+                <li>
+                  <p class='question'>My TV is switching itself on/off (or performing another function on the TV without any buttons being pressed)?</p>
+                  <div class='answer'>
+                    <p>This could be an issue with either the TV, or with the remote control unit sending a ‘rogue signal’. Switch on the TV, remove the batteries from the remote control, and see if the problem continues. If the TV still has the same issue, your TV may be faulty. If the issue is solved, then your remote control is faulty. Faulty items will be replaced.  Please call our Customer Service Team on 0845 459 5282 for further assistance. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">switching off</p>
+                  </div>
+                </li> 
+                <li>
+                  <p class='question'>My TV does not pick up all the channels (i.e. Dave, Viva, Really)</p>
+                  <div class='answer'>
+                    <p>Your licence fee covers the five main TV channels from BBC1 to Channel 5.  As long as you can pick up these channels, then your TV is not faulty.  However, please remember that the quality of your TV aerial will determine the quality of the signal.  Some areas may be receiving a weak signal or a signal from a relay transmitter which will not broadcast additional channels such as Dave etc. <br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">channels</p>
+                  </div>
+                </li> 
+                <li>
+                  <p class='question'>The image on screen doesn’t look right?</p>
+                  <div class='answer'>
+                    <p>The problem can be caused by various factors depending on the source of the image and its connection to the TV. If you are not using a digital television/aerial connection, then remove and reattach cables, or try a new cable. Also check another appliance connected via this source or try connecting to another TV to see if the same issue persists.<br/><p style="color=#578bc1; font-weight: bolder;">If the problem is not resolved, please <a href="#">click here for Live Chat</a> (this will launch the Live Chat application), and an agent will be able to help you – it’s fast and free.  
+We’re open 9am-6pm Monday to Friday.</p></p>
+                     <p class="tags">image</p>
+                  </div>
+                </li>    
+            </ul>      
+        </div>
+    </div> 
+    </div><!--Finish-->
+    
+<!--img src="img/bottom.png" style="max-width: 100%;" /-->
+</body>
+</html>

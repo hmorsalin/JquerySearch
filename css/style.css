@@ -1,0 +1,156 @@
+@charset "utf-8";
+html, body {margin:0px; padding:0px; background:#fff; font-family:verdana; font-size:12px;}
+
+*:focus {
+    outline: 0;
+}
+
+.title {
+	/*margin-top:10px;*/
+	background:#578bc1;
+	width:100%;
+	text-align: center;
+	}
+
+.title h1 {
+	padding:3px;
+	font-weight: lighter;
+	color: #fff;
+	font-size: 18px;
+	}
+
+.wrapper{
+	background:#FFF;
+	width:1000px;
+	margin:0 auto;
+	padding:10px;
+}
+
+.srarchBox{
+	background:#fff;
+	/*height:30px;*/
+	width:98%;	
+	padding:10px;
+	border-top: 1px solid #1e1e1e;
+}
+
+.simpleFAQ_list li { list-style: none; }
+.simpleFAQ_list .question {
+  padding-left: 18px;
+  background: transparent url('plus.png') left center no-repeat;
+  cursor: pointer;
+}
+.simpleFAQShowing .question {
+  background: transparent url('minus.png') left center no-repeat;
+}
+.simpleFAQ_list .simpleFAQHover { color: #060; }
+.simpleFAQ_item .answer {
+  margin-left: 1em;
+  /*border: 1px solid #66c;*/
+  padding: 0.4em;
+}
+
+
+ul{
+	margin:0;
+	padding:0;
+	padding:0px;
+}
+ul li {
+	background:#6f818e;
+	padding:2px;
+	color:#FFF;
+	font-size:14px;
+	margin-bottom:3px;
+	
+}
+
+ul li div{
+	background:#fff;
+	margin-right:5px;
+	color:#000;
+}
+
+.simpleFAQ_list li { list-style: none; }
+.simpleFAQ_list .question {
+  padding-left: 18px;
+  background: transparent url('plus.png') left center no-repeat;
+  cursor: pointer;
+}
+.simpleFAQShowing .question {
+  background: transparent url('minus.png') left center no-repeat;
+}
+.simpleFAQ_list .simpleFAQHover { color: #fff; background: #000 }
+.simpleFAQ_item .answer {
+  margin-left: -2px;
+  margin-right: -2px;
+  margin-bottom: -3px;
+  /*border: 1px solid #66c;*/
+  padding: 1.5em;
+}
+
+.simpleFAQ_item:hover { color: #fff; background: #000 }
+
+.simpleFAQ_item .tags { display: none; }
+
+
+.category{
+		margin-top:5px;
+	}
+	
+	
+.category .item{
+	text-align:center;
+	float:left;
+	margin-right:5px;
+	margin-bottom:5px;
+	padding:11px;
+	width:auto;
+	background:#CCC;
+	cursor:pointer;
+}
+
+.category .item:hover{	
+	background:#578bc1;
+}
+	
+.categoryaccordion{
+	/*margin-top:10px;*/
+	background:#578bc1;
+	width:100%;
+	/*padding-bottom:10px;*/
+	display:none;
+}
+.categoryaccordion h1{
+	margin:0;
+	padding:10px;
+	font-size:20px;
+	color:#fff;
+}
+
+.simpleFAQSearch, input {width: 100%; height: 35px; -webkit-appearance: none; border: none; font-size: 20px;}
+.simpleFAQSearch:focus {outline-width: 0;}
+
+.contact-six { 
+	width: 100%;
+	margin: 0 0 2em 0;
+	float: left;
+}
+
+.contact-six-block {
+	width: 115px;
+	display: block;
+	min-height: 150px;
+	cursor: pointer;
+	float: left;
+	padding: 1em;
+	position: relative;
+	text-align: center;
+	text-decoration: none !important;
+	margin: 0 1em;
+	}
+	
+.six_icon {
+	max-width: 100%;
+	}
+	
